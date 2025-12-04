@@ -9,18 +9,17 @@
 {:products
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :beach-n-play
-             :camping-furniture
-             :camping-household
-             :conversion-n-maintenance
-             :electricity-n-lighting
-             :electronics-n-multimedia
-             :safety-n-protection
-             :sports-n-hiking
-             :tents-n-awnings
-             :trailer-n-caravan
-             :water-n-sanitary]}
+  :subs    [:beach-n-play
+            :camping-furniture
+            :camping-household
+            :conversion-n-maintenance
+            :electricity-n-lighting
+            :electronics-n-multimedia
+            :safety-n-protection
+            :sports-n-hiking
+            :tents-n-awnings
+            :trailer-n-caravan
+            :water-n-sanitary]}
 
  :additional-brake-lamps
  {:exclude ["Does not contain products directly"]
@@ -70,13 +69,12 @@
  :beach-accessories
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :parasols-n-windbreaks
-             :beach-toys
-             :beach-carts
-             :beach-blankets
-             :beach-tents
-             :beach-chairs]}
+  :subs    [:parasols-n-windbreaks
+            :beach-toys
+            :beach-carts
+            :beach-blankets
+            :beach-tents
+            :beach-chairs]}
 
  :beach-blankets
  {:exclude ["Does not contain products directly"]
@@ -96,9 +94,8 @@
  :beach-n-play
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :inflatable-products
-             :beach-accessories]}
+  :subs    [:inflatable-products
+            :beach-accessories]}
 
  :beach-tents
  {:exclude ["Does not contain products directly"]
@@ -138,21 +135,19 @@
  :camping-furniture
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :tables
-             :childrens-furniture
-             :cabinets
-             :chairs]}
+  :subs    [:tables
+            :childrens-furniture
+            :cabinets
+            :chairs]}
 
  :camping-household
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :pots-n-pans
-             :cutlery
-             :washing-n-drying
-             :dehumidification
-             :cleaning-n-maintenance]}
+  :subs    [:pots-n-pans
+            :cutlery
+            :washing-n-drying
+            :dehumidification
+            :cleaning-n-maintenance]}
 
  :camping-lamps
  {:exclude ["Does not contain products directly"]
@@ -172,11 +167,10 @@
  :car-audio-n-navigation
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :car-audio-head-units
-             :car-audio-accessories
-             :navigation-devices
-             :navigation-accessories]}
+  :subs    [:car-audio-head-units
+            :car-audio-accessories
+            :navigation-devices
+            :navigation-accessories]}
 
  :caravan-body-locks
  {:exclude ["Does not contain products directly"]
@@ -186,10 +180,9 @@
  :cargo-securing
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :straps-n-tensioners
-             :securing-nets
-             :cargo-securing-systems]}
+  :subs    [:straps-n-tensioners
+            :securing-nets
+            :cargo-securing-systems]}
 
  :cargo-securing-systems
  {:exclude ["Does not contain products directly"]
@@ -204,14 +197,13 @@
  :chassis-n-body
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :winches
-             :jacks
-             :chocks-n-chock-holders
-             :shock-absorbers
-             :fenders
-             :tool-boxes
-             :support-legs]}
+  :subs    [:winches
+            :jacks
+            :chocks-n-chock-holders
+            :shock-absorbers
+            :fenders
+            :tool-boxes
+            :support-legs]}
 
  :childrens-furniture
  {:exclude ["Does not contain products directly"]
@@ -246,9 +238,8 @@
  :conversion-n-maintenance
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :van-conversion
-             :sealants-n-adhesives]}
+  :subs    [:van-conversion
+            :sealants-n-adhesives]}
 
  :cutlery
  {:exclude ["Does not contain products directly"]
@@ -278,23 +269,21 @@
  :electricity-n-lighting
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :high-voltage-electrical-system
-             :low-voltage-electrical-system
-             :vehicle-electrics
-             :switches-n-sockets
-             :cables-n-wires
-             :lamps-n-lighting
-             :solar-systems]}
+  :subs    [:high-voltage-electrical-system
+            :low-voltage-electrical-system
+            :vehicle-electrics
+            :switches-n-sockets
+            :cables-n-wires
+            :lamps-n-lighting
+            :solar-systems]}
 
  :electronics-n-multimedia
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :car-audio-n-navigation
-             :household-appliances
-             :satellite-systems
-             :tv-n-audio]}
+  :subs    [:car-audio-n-navigation
+            :household-appliances
+            :satellite-systems
+            :tv-n-audio]}
 
  :extension-cords-cable-reels-n-distributors
  {:exclude ["Does not contain products directly"]
@@ -349,13 +338,12 @@
  :high-voltage-electrical-system
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :electrical-connection
-             :portable-generators
-             :extension-cords-cable-reels-n-distributors
-             :inverters
-             :fuel-cells
-             :protective-equipment]}
+  :subs    [:electrical-connection
+            :portable-generators
+            :extension-cords-cable-reels-n-distributors
+            :inverters
+            :fuel-cells
+            :protective-equipment]}
 
  :household-appliances
  {:exclude ["Does not contain products directly"]
@@ -380,12 +368,11 @@
  :inflatable-products
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :inflatable-boats
-             :inflatable-toys
-             :inflatable-mattresses
-             :inflatable-pools
-             :pumps-n-compressors]}
+  :subs    [:inflatable-boats
+            :inflatable-toys
+            :inflatable-mattresses
+            :inflatable-pools
+            :pumps-n-compressors]}
 
  :inflatable-toys
  {:exclude ["Does not contain products directly"]
@@ -415,14 +402,13 @@
  :lamps-n-lighting
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :interior-lighting
-             :exterior-lighting
-             :headlamps
-             :camping-lamps
-             :work-lamps
-             :tent-lamps
-             :torches]}
+  :subs    [:interior-lighting
+            :exterior-lighting
+            :headlamps
+            :camping-lamps
+            :work-lamps
+            :tent-lamps
+            :torches]}
 
  :license-plate-lamps
  {:exclude ["Does not contain products directly"]
@@ -432,22 +418,20 @@
  :locks-n-protection
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :safety-accessories
-             :caravan-body-locks
-             :trailer-body-locks
-             :trailer-platform-locks]}
+  :subs    [:safety-accessories
+            :caravan-body-locks
+            :trailer-body-locks
+            :trailer-platform-locks]}
 
  :low-voltage-electrical-system
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :batteries
-             :battery-accessories
-             :battery-chargers
-             :alkaline-n-rechargeable-cells
-             :portable-energy-storage
-             :cigarette-lighter-sockets]}
+  :subs    [:batteries
+            :battery-accessories
+            :battery-chargers
+            :alkaline-n-rechargeable-cells
+            :portable-energy-storage
+            :cigarette-lighter-sockets]}
 
  :maintenance-n-repair
  {:exclude ["Does not contain products directly"]
@@ -547,11 +531,10 @@
  :safety-n-protection
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :anti-burglary-equipment
-             :anti-theft-equipment
-             :cargo-securing
-             :alarms-n-sensors]}
+  :subs    [:anti-burglary-equipment
+            :anti-theft-equipment
+            :cargo-securing
+            :alarms-n-sensors]}
 
  :sanitary-supplies
  {:exclude ["Does not contain products directly"]
@@ -581,10 +564,9 @@
  :satellite-systems
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :satellite-antennas
-             :satellite-receiver-kits
-             :satellite-accessories]}
+  :subs    [:satellite-antennas
+            :satellite-receiver-kits
+            :satellite-accessories]}
 
  :sealants-n-adhesives
  {:exclude ["Does not contain products directly"]
@@ -644,11 +626,10 @@
  :solar-systems
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :solar-kits
-             :solar-panels
-             :solar-accessories
-             :solar-charge-controllers]}
+  :subs    [:solar-kits
+            :solar-panels
+            :solar-accessories
+            :solar-charge-controllers]}
 
  :sports-n-hiking
  {:exclude ["Does not contain products directly"]
@@ -708,13 +689,12 @@
  :toilets-n-accessories
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :built-in-toilets
-             :portable-toilets
-             :sanitary-supplies
-             :sanitary-supplies-chemical-free
-             :toilet-ventilation
-             :toilet-accessories]}
+  :subs    [:built-in-toilets
+            :portable-toilets
+            :sanitary-supplies
+            :sanitary-supplies-chemical-free
+            :toilet-ventilation
+            :toilet-accessories]}
 
  :tool-boxes
  {:exclude ["Does not contain products directly"]
@@ -734,14 +714,13 @@
  :tow-bar-tow-hitch-n-tow-ball
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :tow-balls
-             :tow-hitches
-             :tow-hitch-components
-             :tow-hitch-scales
-             :tow-hitch-covers
-             :tow-hitch-accessories
-             :tow-hitch-locks]}
+  :subs    [:tow-balls
+            :tow-hitches
+            :tow-hitch-components
+            :tow-hitch-scales
+            :tow-hitch-covers
+            :tow-hitch-accessories
+            :tow-hitch-locks]}
 
  :tow-hitch-accessories
  {:exclude ["Does not contain products directly"]
@@ -781,12 +760,11 @@
  :trailer-n-caravan
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :chassis-n-body
-             :wheels-n-tyres
-             :cargo-securing
-             :tow-bar-tow-hitch-n-tow-ball
-             :locks-n-protection]}
+  :subs    [:chassis-n-body
+            :wheels-n-tyres
+            :cargo-securing
+            :tow-bar-tow-hitch-n-tow-ball
+            :locks-n-protection]}
 
  :trailer-platform-locks
  {:exclude ["Does not contain products directly"]
@@ -811,10 +789,9 @@
  :tv-n-audio
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :tv-speakers
-             :tv-devices
-             :tv-mounts]}
+  :subs    [:tv-speakers
+            :tv-devices
+            :tv-mounts]}
 
  :tv-speakers
  {:exclude ["Does not contain products directly"]
@@ -834,27 +811,25 @@
  :vehicle-electrics
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :connectors-n-adapters
-             :vehicle-lighting-n-lamps]}
+  :subs    [:connectors-n-adapters
+            :vehicle-lighting-n-lamps]}
 
  :vehicle-lighting-n-lamps
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :rear-lamps
-             :position-n-marker-lamps
-             :turn-signal-lamps
-             :additional-brake-lamps
-             :fog-lamps
-             :lamp-covers
-             :daytime-running-lamps
-             :side-marker-lamps
-             :license-plate-lamps
-             :reversing-lamps
-             :reflectors
-             :bulbs
-             :bulb-sets]}
+  :subs    [:rear-lamps
+            :position-n-marker-lamps
+            :turn-signal-lamps
+            :additional-brake-lamps
+            :fog-lamps
+            :lamp-covers
+            :daytime-running-lamps
+            :side-marker-lamps
+            :license-plate-lamps
+            :reversing-lamps
+            :reflectors
+            :bulbs
+            :bulb-sets]}
 
  :washbasins
  {:exclude ["Does not contain products directly"]
@@ -894,9 +869,8 @@
  :water-heating
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :solar-showers
-             :water-heaters]}
+  :subs    [:solar-showers
+            :water-heaters]}
 
  :water-hoses-n-pipes
  {:exclude ["Does not contain products directly"]
@@ -911,12 +885,11 @@
  :water-n-sanitary
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :water-treatment
-             :water-heating
-             :water-system
-             :water-transport
-             :toilets-n-accessories]}
+  :subs    [:water-treatment
+            :water-heating
+            :water-system
+            :water-transport
+            :toilets-n-accessories]}
 
  :water-pumps
  {:exclude ["Does not contain products directly"]
@@ -931,27 +904,26 @@
  :water-system
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :taps
-             :tap-ceramic-inserts
-             :plumbing-fittings
-             :plumbing-fittings-quick-connect
-             :frost-protection
-             :bathroom-equipment
-             :garden-hoses-n-accessories
-             :outdoor-showers
-             :drainage-systems
-             :washbasins
-             :sinks
-             :grey-water-discharge
-             :grey-water-tanks
-             :water-connection
-             :water-level-indicators
-             :water-pumps
-             :water-tanks
-             :water-tank-accessories
-             :water-hoses-n-pipes
-             :shower-trays]}
+  :subs    [:taps
+            :tap-ceramic-inserts
+            :plumbing-fittings
+            :plumbing-fittings-quick-connect
+            :frost-protection
+            :bathroom-equipment
+            :garden-hoses-n-accessories
+            :outdoor-showers
+            :drainage-systems
+            :washbasins
+            :sinks
+            :grey-water-discharge
+            :grey-water-tanks
+            :water-connection
+            :water-level-indicators
+            :water-pumps
+            :water-tanks
+            :water-tank-accessories
+            :water-hoses-n-pipes
+            :shower-trays]}
 
  :water-tank-accessories
  {:exclude ["Does not contain products directly"]
@@ -966,17 +938,15 @@
  :water-transport
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :portable-containers
-             :water-cans-n-buckets
-             :water-can-accessories]}
+  :subs    [:portable-containers
+            :water-cans-n-buckets
+            :water-can-accessories]}
 
  :water-treatment
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :water-treatment-n-preservation
-             :water-filtration]}
+  :subs    [:water-treatment-n-preservation
+            :water-filtration]}
 
  :water-treatment-n-preservation
  {:exclude ["Does not contain products directly"]
@@ -991,10 +961,9 @@
  :wheels-n-tyres
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [
-             :wheel-rims
-             :complete-wheels
-             :tyres]}
+  :subs    [:wheel-rims
+            :complete-wheels
+            :tyres]}
 
  :winches
  {:exclude ["Does not contain products directly"]
