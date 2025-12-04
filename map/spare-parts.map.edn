@@ -1,20 +1,17 @@
 
-; {:random-uuid
-;  {:label   :my-category
-;   :exclude ["Red products"]
+; {:my-category
+;  {:exclude ["Red products"]
 ;   :include ["Black products"
 ;             "Green products"]
 ;   :subs    [:my-subcategory ...]}
 ;  ...}
 
-{:ccc
- {:label   :spare-parts
-  :exclude ["Does not contain products directly"]
+{:spare-parts
+ {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:ccc]}
+  :subs    [:spare-parts-for-awnings]}
 
- :ddd
- {:label :spare-parts-for-awnings
-  :exclude ["Does not contain products directly"]
+ :spare-parts-for-awnings
+ {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
   :subs    []}}

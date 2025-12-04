@@ -1,14 +1,12 @@
 
-; {:random-uuid
-;  {:label   :my-category
-;   :exclude ["Red products"]
+; {:my-category
+;  {:exclude ["Red products"]
 ;   :include ["Black products"
 ;             "Green products"]
 ;   :subs    [:my-subcategory ...]}
 ;  ...}
 
-{:eee
- {:label   :brands
-  :exclude ["Does not contain products directly"]
+{:brands
+ {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
   :subs    []}}

@@ -1,20 +1,1205 @@
 
-; {:random-uuid
-;  {:label   :my-category
-;   :exclude ["Red products"]
+; {:my-category
+;  {:exclude ["Red products"]
 ;   :include ["Black products"
 ;             "Green products"]
 ;   :subs    [:my-subcategory ...]}
 ;  ...}
 
-{:aaa
- {:label   :products
-  :exclude ["Does not contain products directly"]
+{:products
+ {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:bbb]}
+  :subs    [
+             :beach-n-play
+             :camping-furniture
+             :camping-household
+             :conversion-n-maintenance
+             :electricity-n-lighting
+             :electronics-n-multimedia
+             :safety-n-protection
+             :sports-n-hiking
+             :tents-n-awnings
+             :trailer-n-caravan
+             :water-n-sanitary
+            ]}
 
- :bbb
- {:label :safety-n-protection
+ :additional-brake-lamps
+ {
   :exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    []}}
+  :subs    []}
+
+ :alarms-n-sensors
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :alkaline-n-rechargeable-cells
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :anti-burglary-equipment
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :anti-theft-equipment
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :bathroom-equipment
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :batteries
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :battery-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :battery-chargers
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :beach-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :parasols-n-windbreaks
+             :beach-toys
+             :beach-carts
+             :beach-blankets
+             :beach-tents
+             :beach-chairs
+            ]}
+
+ :beach-blankets
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :beach-carts
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :beach-chairs
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :beach-n-play
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :inflatable-products
+             :beach-accessories
+            ]}
+
+ :beach-tents
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :beach-toys
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :built-in-toilets
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :bulb-sets
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :bulbs
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :cabinets
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :cables-n-wires
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :camping-furniture
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :tables
+             :childrens-furniture
+             :cabinets
+             :chairs
+            ]}
+
+ :camping-household
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :pots-n-pans
+             :cutlery
+             :washing-n-drying
+             :dehumidification
+             :cleaning-n-maintenance
+            ]}
+
+ :camping-lamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :car-audio-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :car-audio-head-units
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :car-audio-n-navigation
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :car-audio-head-units
+             :car-audio-accessories
+             :navigation-devices
+             :navigation-accessories
+            ]}
+
+ :caravan-body-locks
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :cargo-securing
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :straps-n-tensioners
+             :securing-nets
+             :cargo-securing-systems
+            ]}
+
+ :cargo-securing-systems
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :chairs
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :chassis-n-body
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :winches
+             :jacks
+             :chocks-n-chock-holders
+             :shock-absorbers
+             :fenders
+             :tool-boxes
+             :support-legs
+            ]}
+
+ :childrens-furniture
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :chocks-n-chock-holders
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :cigarette-lighter-sockets
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :cleaning-n-maintenance
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :complete-wheels
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :connectors-n-adapters
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :conversion-n-maintenance
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :van-conversion
+             :sealants-n-adhesives
+            ]}
+
+ :cutlery
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :daytime-running-lamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :dehumidification
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :drainage-systems
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :electrical-connection
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :electricity-n-lighting
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :high-voltage-electrical-system
+             :low-voltage-electrical-system
+             :vehicle-electrics
+             :switches-n-sockets
+             :cables-n-wires
+             :lamps-n-lighting
+             :solar-systems
+            ]}
+
+ :electronics-n-multimedia
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :car-audio-n-navigation
+             :household-appliances
+             :satellite-systems
+             :tv-n-audio
+            ]}
+
+ :extension-cords-cable-reels-n-distributors
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :exterior-lighting
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :fenders
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :fog-lamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :frost-protection
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :fuel-cells
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :garden-hoses-n-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :grey-water-discharge
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :grey-water-tanks
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :headlamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :high-voltage-electrical-system
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :electrical-connection
+             :portable-generators
+             :extension-cords-cable-reels-n-distributors
+             :inverters
+             :fuel-cells
+             :protective-equipment
+            ]}
+
+ :household-appliances
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :inflatable-boats
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :inflatable-mattresses
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :inflatable-pools
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :inflatable-products
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :inflatable-boats
+             :inflatable-toys
+             :inflatable-mattresses
+             :inflatable-pools
+             :pumps-n-compressors
+            ]}
+
+ :inflatable-toys
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :interior-lighting
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :inverters
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :jacks
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :lamp-covers
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :lamps-n-lighting
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :interior-lighting
+             :exterior-lighting
+             :headlamps
+             :camping-lamps
+             :work-lamps
+             :tent-lamps
+             :torches
+            ]}
+
+ :license-plate-lamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :locks-n-protection
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :safety-accessories
+             :caravan-body-locks
+             :trailer-body-locks
+             :trailer-platform-locks
+            ]}
+
+ :low-voltage-electrical-system
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :batteries
+             :battery-accessories
+             :battery-chargers
+             :alkaline-n-rechargeable-cells
+             :portable-energy-storage
+             :cigarette-lighter-sockets
+            ]}
+
+ :maintenance-n-repair
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :navigation-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :navigation-devices
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :outdoor-showers
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :parasols-n-windbreaks
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :plumbing-fittings
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :plumbing-fittings-quick-connect
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :portable-containers
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :portable-energy-storage
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :portable-generators
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :portable-toilets
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :position-n-marker-lamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :pots-n-pans
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :protective-equipment
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :pumps-n-compressors
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :rear-lamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :reflectors
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :reversing-lamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :safety-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :safety-n-protection
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :anti-burglary-equipment
+             :anti-theft-equipment
+             :cargo-securing
+             :alarms-n-sensors
+            ]}
+
+ :sanitary-supplies
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :sanitary-supplies-chemical-free
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :satellite-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :satellite-antennas
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :satellite-receiver-kits
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :satellite-systems
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :satellite-antennas
+             :satellite-receiver-kits
+             :satellite-accessories
+            ]}
+
+ :sealants-n-adhesives
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :securing-nets
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :shock-absorbers
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :shower-trays
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :side-marker-lamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :sinks
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :solar-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :solar-charge-controllers
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :solar-kits
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :solar-panels
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :solar-showers
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :solar-systems
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :solar-kits
+             :solar-panels
+             :solar-accessories
+             :solar-charge-controllers
+            ]}
+
+ :sports-n-hiking
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [:water-purification]}
+
+ :straps-n-tensioners
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :support-legs
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :switches-n-sockets
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tables
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tap-ceramic-inserts
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :taps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tent-lamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tents-n-awnings
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [:maintenance-n-repair]}
+
+ :toilet-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :toilet-ventilation
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :toilets-n-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :built-in-toilets
+             :portable-toilets
+             :sanitary-supplies
+             :sanitary-supplies-chemical-free
+             :toilet-ventilation
+             :toilet-accessories
+            ]}
+
+ :tool-boxes
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :torches
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tow-balls
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tow-bar-tow-hitch-n-tow-ball
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :tow-balls
+             :tow-hitches
+             :tow-hitch-components
+             :tow-hitch-scales
+             :tow-hitch-covers
+             :tow-hitch-accessories
+             :tow-hitch-locks
+            ]}
+
+ :tow-hitch-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tow-hitch-components
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tow-hitch-covers
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tow-hitch-locks
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tow-hitch-scales
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tow-hitches
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :trailer-body-locks
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :trailer-n-caravan
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :chassis-n-body
+             :wheels-n-tyres
+             :cargo-securing
+             :tow-bar-tow-hitch-n-tow-ball
+             :locks-n-protection
+            ]}
+
+ :trailer-platform-locks
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :turn-signal-lamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tv-devices
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tv-mounts
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tv-n-audio
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :tv-speakers
+             :tv-devices
+             :tv-mounts
+            ]}
+
+ :tv-speakers
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :tyres
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :van-conversion
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :vehicle-electrics
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :connectors-n-adapters
+             :vehicle-lighting-n-lamps
+            ]}
+
+ :vehicle-lighting-n-lamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :rear-lamps
+             :position-n-marker-lamps
+             :turn-signal-lamps
+             :additional-brake-lamps
+             :fog-lamps
+             :lamp-covers
+             :daytime-running-lamps
+             :side-marker-lamps
+             :license-plate-lamps
+             :reversing-lamps
+             :reflectors
+             :bulbs
+             :bulb-sets
+            ]}
+
+ :washbasins
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :washing-n-drying
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :water-can-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :water-cans-n-buckets
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :water-connection
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :water-filtration
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :water-heaters
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :water-heating
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :solar-showers
+             :water-heaters
+            ]}
+
+ :water-hoses-n-pipes
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :water-level-indicators
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :water-n-sanitary
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :water-treatment
+             :water-heating
+             :water-system
+             :water-transport
+             :toilets-n-accessories
+            ]}
+
+ :water-pumps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :water-purification
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :water-system
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :taps
+             :tap-ceramic-inserts
+             :plumbing-fittings
+             :plumbing-fittings-quick-connect
+             :frost-protection
+             :bathroom-equipment
+             :garden-hoses-n-accessories
+             :outdoor-showers
+             :drainage-systems
+             :washbasins
+             :sinks
+             :grey-water-discharge
+             :grey-water-tanks
+             :water-connection
+             :water-level-indicators
+             :water-pumps
+             :water-tanks
+             :water-tank-accessories
+             :water-hoses-n-pipes
+             :shower-trays
+            ]}
+
+ :water-tank-accessories
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :water-tanks
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :water-transport
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :portable-containers
+             :water-cans-n-buckets
+             :water-can-accessories
+            ]}
+
+ :water-treatment
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :water-treatment-n-preservation
+             :water-filtration
+            ]}
+
+ :water-treatment-n-preservation
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :wheel-rims
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :wheels-n-tyres
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [
+             :wheel-rims
+             :complete-wheels
+             :tyres
+            ]}
+
+ :winches
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+
+ :work-lamps
+ {
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}
+}
