@@ -1,17 +1,17 @@
 
-; {:my-category
+; {:spare-parts.my-category
 ;  {:exclude ["Red products"]
 ;   :include ["Black products"
 ;             "Green products"]
-;   :subs    [:my-subcategory ...]}
+;   :subs    [:spare-parts.my-category.my-subcategory ...]}
 ;  ...}
 
 {:spare-parts
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:spare-parts-for-awnings]}
+  :subs    [:spare-parts.spare-parts-for-awnings]}
 
- :spare-parts-for-awnings
+ :spare-parts.spare-parts-for-awnings
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
   :subs    []}}

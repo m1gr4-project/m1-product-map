@@ -1,9 +1,9 @@
 
-; {:my-category
+; {:products.my-category
 ;  {:exclude ["Red products"]
 ;   :include ["Black products"
 ;             "Green products"]
-;   :subs    [:my-subcategory ...]}
+;   :subs    [:products.my-category.my-subcategory ...]}
 ;  ...}
 
 {:products
