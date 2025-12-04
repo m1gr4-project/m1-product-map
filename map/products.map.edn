@@ -9,968 +9,1004 @@
 {:products
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:beach-n-play
-            :camping-furniture
-            :camping-household
-            :conversion-n-maintenance
-            :electricity-n-lighting
-            :electronics-n-multimedia
-            :safety-n-protection
-            :sports-n-hiking
-            :tents-n-awnings
-            :trailer-n-caravan
-            :water-n-sanitary]}
+  :subs    [:products.beach-n-play
+             :products.camping-furniture
+             :products.camping-household
+             :products.conversion-n-maintenance
+             :products.electricity-n-lighting
+             :products.electronics-n-multimedia
+             :products.safety-n-protection
+             :products.sports-n-hiking
+             :products.tents-n-awnings
+             :products.trailer-n-caravan
+             :products.water-n-sanitary]}
 
- :additional-brake-lamps
- {:exclude []
-  :include []
-  :subs    []}
 
- :alarms-n-sensors
- {:exclude []
-  :include []
-  :subs    []}
-
- :alkaline-n-rechargeable-cells
- {:exclude []
-  :include []
-  :subs    []}
-
- :anti-burglary-equipment
- {:exclude []
-  :include []
-  :subs    []}
-
- :anti-theft-equipment
- {:exclude []
-  :include []
-  :subs    []}
-
- :bathroom-equipment
- {:exclude []
-  :include []
-  :subs    []}
-
- :batteries
- {:exclude []
-  :include []
-  :subs    []}
-
- :battery-accessories
- {:exclude []
-  :include []
-  :subs    []}
-
- :battery-chargers
- {:exclude []
-  :include []
-  :subs    []}
-
- :beach-accessories
+ :products.beach-n-play
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:parasols-n-windbreaks
-            :beach-toys
-            :beach-carts
-            :beach-blankets
-            :beach-tents
-            :beach-chairs]}
+  :subs    [:products.beach-n-play.beach-accessories
+             :products.beach-n-play.inflatable-products]}
 
- :beach-blankets
- {:exclude []
-  :include []
-  :subs    []}
 
- :beach-carts
- {:exclude []
-  :include []
-  :subs    []}
-
- :beach-chairs
- {:exclude []
-  :include []
-  :subs    []}
-
- :beach-n-play
+ :products.beach-n-play.beach-accessories
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:inflatable-products
-            :beach-accessories]}
+  :subs    [:products.beach-n-play.beach-accessories.beach-blankets
+             :products.beach-n-play.beach-accessories.beach-carts
+             :products.beach-n-play.beach-accessories.beach-chairs
+             :products.beach-n-play.beach-accessories.beach-tents
+             :products.beach-n-play.beach-accessories.beach-toys
+             :products.beach-n-play.beach-accessories.parasols-n-windbreaks]}
 
- :beach-tents
+
+ :products.beach-n-play.beach-accessories.beach-blankets
  {:exclude []
   :include []
   :subs    []}
 
- :beach-toys
+ :products.beach-n-play.beach-accessories.beach-carts
  {:exclude []
   :include []
   :subs    []}
 
- :built-in-toilets
+ :products.beach-n-play.beach-accessories.beach-chairs
  {:exclude []
   :include []
   :subs    []}
 
- :bulb-sets
+ :products.beach-n-play.beach-accessories.beach-tents
  {:exclude []
   :include []
   :subs    []}
 
- :bulbs
+ :products.beach-n-play.beach-accessories.beach-toys
  {:exclude []
   :include []
   :subs    []}
 
- :cabinets
+ :products.beach-n-play.beach-accessories.parasols-n-windbreaks
  {:exclude []
   :include []
   :subs    []}
 
- :cables-n-wires
- {:exclude []
-  :include []
-  :subs    []}
-
- :camping-furniture
+ :products.beach-n-play.inflatable-products
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:tables
-            :childrens-furniture
-            :cabinets
-            :chairs]}
+  :subs    [:products.beach-n-play.inflatable-products.inflatable-boats
+             :products.beach-n-play.inflatable-products.inflatable-mattresses
+             :products.beach-n-play.inflatable-products.inflatable-pools
+             :products.beach-n-play.inflatable-products.inflatable-toys
+             :products.beach-n-play.inflatable-products.pumps-n-compressors]}
 
- :camping-household
+
+ :products.beach-n-play.inflatable-products.inflatable-boats
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.beach-n-play.inflatable-products.inflatable-mattresses
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.beach-n-play.inflatable-products.inflatable-pools
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.beach-n-play.inflatable-products.inflatable-toys
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.beach-n-play.inflatable-products.pumps-n-compressors
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.camping-furniture
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:pots-n-pans
-            :cutlery
-            :washing-n-drying
-            :dehumidification
-            :cleaning-n-maintenance]}
+  :subs    [:products.camping-furniture.cabinets
+             :products.camping-furniture.chairs
+             :products.camping-furniture.childrens-furniture
+             :products.camping-furniture.tables]}
 
- :camping-lamps
+
+ :products.camping-furniture.cabinets
  {:exclude []
   :include []
   :subs    []}
 
- :car-audio-accessories
+ :products.camping-furniture.chairs
  {:exclude []
   :include []
   :subs    []}
 
- :car-audio-head-units
+ :products.camping-furniture.childrens-furniture
  {:exclude []
   :include []
   :subs    []}
 
- :car-audio-n-navigation
+ :products.camping-furniture.tables
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.camping-household
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:car-audio-head-units
-            :car-audio-accessories
-            :navigation-devices
-            :navigation-accessories]}
+  :subs    [:products.camping-household.cleaning-n-maintenance
+             :products.camping-household.cutlery
+             :products.camping-household.dehumidification
+             :products.camping-household.pots-n-pans
+             :products.camping-household.washing-n-drying]}
 
- :caravan-body-locks
+
+ :products.camping-household.cleaning-n-maintenance
  {:exclude []
   :include []
   :subs    []}
 
- :cargo-securing
+ :products.camping-household.cutlery
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.camping-household.dehumidification
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.camping-household.pots-n-pans
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.camping-household.washing-n-drying
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.conversion-n-maintenance
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:straps-n-tensioners
-            :securing-nets
-            :cargo-securing-systems]}
+  :subs    [:products.conversion-n-maintenance.sealants-n-adhesives
+             :products.conversion-n-maintenance.van-conversion]}
 
- :cargo-securing-systems
+
+ :products.conversion-n-maintenance.sealants-n-adhesives
  {:exclude []
   :include []
   :subs    []}
 
- :chairs
+ :products.conversion-n-maintenance.van-conversion
  {:exclude []
   :include []
   :subs    []}
 
- :chassis-n-body
+ :products.electricity-n-lighting
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:winches
-            :jacks
-            :chocks-n-chock-holders
-            :shock-absorbers
-            :fenders
-            :tool-boxes
-            :support-legs]}
+  :subs    [:products.electricity-n-lighting.cables-n-wires
+             :products.electricity-n-lighting.high-voltage-electrical-system
+             :products.electricity-n-lighting.lamps-n-lighting
+             :products.electricity-n-lighting.low-voltage-electrical-system
+             :products.electricity-n-lighting.solar-systems
+             :products.electricity-n-lighting.switches-n-sockets
+             :products.electricity-n-lighting.vehicle-electrics]}
 
- :childrens-furniture
+
+ :products.electricity-n-lighting.cables-n-wires
  {:exclude []
   :include []
   :subs    []}
 
- :chocks-n-chock-holders
- {:exclude []
-  :include []
-  :subs    []}
-
- :cigarette-lighter-sockets
- {:exclude []
-  :include []
-  :subs    []}
-
- :cleaning-n-maintenance
- {:exclude []
-  :include []
-  :subs    []}
-
- :complete-wheels
- {:exclude []
-  :include []
-  :subs    []}
-
- :connectors-n-adapters
- {:exclude []
-  :include []
-  :subs    []}
-
- :conversion-n-maintenance
+ :products.electricity-n-lighting.high-voltage-electrical-system
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:van-conversion
-            :sealants-n-adhesives]}
+  :subs    [:products.electricity-n-lighting.high-voltage-electrical-system.electrical-connection
+             :products.electricity-n-lighting.high-voltage-electrical-system.extension-cords-cable-reels-n-distributors
+             :products.electricity-n-lighting.high-voltage-electrical-system.fuel-cells
+             :products.electricity-n-lighting.high-voltage-electrical-system.inverters
+             :products.electricity-n-lighting.high-voltage-electrical-system.portable-generators
+             :products.electricity-n-lighting.high-voltage-electrical-system.protective-equipment]}
 
- :cutlery
+
+ :products.electricity-n-lighting.high-voltage-electrical-system.electrical-connection
  {:exclude []
   :include []
   :subs    []}
 
- :daytime-running-lamps
+ :products.electricity-n-lighting.high-voltage-electrical-system.extension-cords-cable-reels-n-distributors
  {:exclude []
   :include []
   :subs    []}
 
- :dehumidification
+ :products.electricity-n-lighting.high-voltage-electrical-system.fuel-cells
  {:exclude []
   :include []
   :subs    []}
 
- :drainage-systems
+ :products.electricity-n-lighting.high-voltage-electrical-system.inverters
  {:exclude []
   :include []
   :subs    []}
 
- :electrical-connection
+ :products.electricity-n-lighting.high-voltage-electrical-system.portable-generators
  {:exclude []
   :include []
   :subs    []}
 
- :electricity-n-lighting
+ :products.electricity-n-lighting.high-voltage-electrical-system.protective-equipment
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.lamps-n-lighting
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:high-voltage-electrical-system
-            :low-voltage-electrical-system
-            :vehicle-electrics
-            :switches-n-sockets
-            :cables-n-wires
-            :lamps-n-lighting
-            :solar-systems]}
+  :subs    [:products.electricity-n-lighting.lamps-n-lighting.camping-lamps
+             :products.electricity-n-lighting.lamps-n-lighting.exterior-lighting
+             :products.electricity-n-lighting.lamps-n-lighting.headlamps
+             :products.electricity-n-lighting.lamps-n-lighting.interior-lighting
+             :products.electricity-n-lighting.lamps-n-lighting.tent-lamps
+             :products.electricity-n-lighting.lamps-n-lighting.torches
+             :products.electricity-n-lighting.lamps-n-lighting.work-lamps]}
 
- :electronics-n-multimedia
+
+ :products.electricity-n-lighting.lamps-n-lighting.camping-lamps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.lamps-n-lighting.exterior-lighting
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.lamps-n-lighting.headlamps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.lamps-n-lighting.interior-lighting
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.lamps-n-lighting.tent-lamps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.lamps-n-lighting.torches
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.lamps-n-lighting.work-lamps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.low-voltage-electrical-system
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:car-audio-n-navigation
-            :household-appliances
-            :satellite-systems
-            :tv-n-audio]}
+  :subs    [:products.electricity-n-lighting.low-voltage-electrical-system.alkaline-n-rechargeable-cells
+             :products.electricity-n-lighting.low-voltage-electrical-system.batteries
+             :products.electricity-n-lighting.low-voltage-electrical-system.battery-accessories
+             :products.electricity-n-lighting.low-voltage-electrical-system.battery-chargers
+             :products.electricity-n-lighting.low-voltage-electrical-system.cigarette-lighter-sockets
+             :products.electricity-n-lighting.low-voltage-electrical-system.portable-energy-storage]}
 
- :extension-cords-cable-reels-n-distributors
+
+ :products.electricity-n-lighting.low-voltage-electrical-system.alkaline-n-rechargeable-cells
  {:exclude []
   :include []
   :subs    []}
 
- :exterior-lighting
+ :products.electricity-n-lighting.low-voltage-electrical-system.batteries
  {:exclude []
   :include []
   :subs    []}
 
- :fenders
+ :products.electricity-n-lighting.low-voltage-electrical-system.battery-accessories
  {:exclude []
   :include []
   :subs    []}
 
- :fog-lamps
+ :products.electricity-n-lighting.low-voltage-electrical-system.battery-chargers
  {:exclude []
   :include []
   :subs    []}
 
- :frost-protection
+ :products.electricity-n-lighting.low-voltage-electrical-system.cigarette-lighter-sockets
  {:exclude []
   :include []
   :subs    []}
 
- :fuel-cells
+ :products.electricity-n-lighting.low-voltage-electrical-system.portable-energy-storage
  {:exclude []
   :include []
   :subs    []}
 
- :garden-hoses-n-accessories
- {:exclude []
-  :include []
-  :subs    []}
-
- :grey-water-discharge
- {:exclude []
-  :include []
-  :subs    []}
-
- :grey-water-tanks
- {:exclude []
-  :include []
-  :subs    []}
-
- :headlamps
- {:exclude []
-  :include []
-  :subs    []}
-
- :high-voltage-electrical-system
+ :products.electricity-n-lighting.solar-systems
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:electrical-connection
-            :portable-generators
-            :extension-cords-cable-reels-n-distributors
-            :inverters
-            :fuel-cells
-            :protective-equipment]}
+  :subs    [:products.electricity-n-lighting.solar-systems.solar-accessories
+             :products.electricity-n-lighting.solar-systems.solar-charge-controllers
+             :products.electricity-n-lighting.solar-systems.solar-kits
+             :products.electricity-n-lighting.solar-systems.solar-panels]}
 
- :household-appliances
+
+ :products.electricity-n-lighting.solar-systems.solar-accessories
  {:exclude []
   :include []
   :subs    []}
 
- :inflatable-boats
+ :products.electricity-n-lighting.solar-systems.solar-charge-controllers
  {:exclude []
   :include []
   :subs    []}
 
- :inflatable-mattresses
+ :products.electricity-n-lighting.solar-systems.solar-kits
  {:exclude []
   :include []
   :subs    []}
 
- :inflatable-pools
+ :products.electricity-n-lighting.solar-systems.solar-panels
  {:exclude []
   :include []
   :subs    []}
 
- :inflatable-products
+ :products.electricity-n-lighting.switches-n-sockets
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.vehicle-electrics
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:inflatable-boats
-            :inflatable-toys
-            :inflatable-mattresses
-            :inflatable-pools
-            :pumps-n-compressors]}
+  :subs    [:products.electricity-n-lighting.vehicle-electrics.connectors-n-adapters
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps]}
 
- :inflatable-toys
+
+ :products.electricity-n-lighting.vehicle-electrics.connectors-n-adapters
  {:exclude []
   :include []
   :subs    []}
 
- :interior-lighting
- {:exclude []
-  :include []
-  :subs    []}
-
- :inverters
- {:exclude []
-  :include []
-  :subs    []}
-
- :jacks
- {:exclude []
-  :include []
-  :subs    []}
-
- :lamp-covers
- {:exclude []
-  :include []
-  :subs    []}
-
- :lamps-n-lighting
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:interior-lighting
-            :exterior-lighting
-            :headlamps
-            :camping-lamps
-            :work-lamps
-            :tent-lamps
-            :torches]}
+  :subs    [:products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.additional-brake-lamps
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.bulb-sets
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.bulbs
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.daytime-running-lamps
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.fog-lamps
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.lamp-covers
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.license-plate-lamps
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.position-n-marker-lamps
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.rear-lamps
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.reflectors
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.reversing-lamps
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.side-marker-lamps
+             :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.turn-signal-lamps]}
 
- :license-plate-lamps
+
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.additional-brake-lamps
  {:exclude []
   :include []
   :subs    []}
 
- :locks-n-protection
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.bulb-sets
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.bulbs
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.daytime-running-lamps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.fog-lamps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.lamp-covers
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.license-plate-lamps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.position-n-marker-lamps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.rear-lamps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.reflectors
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.reversing-lamps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.side-marker-lamps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.turn-signal-lamps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.electronics-n-multimedia
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:safety-accessories
-            :caravan-body-locks
-            :trailer-body-locks
-            :trailer-platform-locks]}
+  :subs    [:products.electronics-n-multimedia.car-audio-n-navigation
+             :products.electronics-n-multimedia.household-appliances
+             :products.electronics-n-multimedia.satellite-systems
+             :products.electronics-n-multimedia.tv-n-audio]}
 
- :low-voltage-electrical-system
+
+ :products.electronics-n-multimedia.car-audio-n-navigation
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:batteries
-            :battery-accessories
-            :battery-chargers
-            :alkaline-n-rechargeable-cells
-            :portable-energy-storage
-            :cigarette-lighter-sockets]}
+  :subs    [:products.electronics-n-multimedia.car-audio-n-navigation.car-audio-accessories
+             :products.electronics-n-multimedia.car-audio-n-navigation.car-audio-head-units
+             :products.electronics-n-multimedia.car-audio-n-navigation.navigation-accessories
+             :products.electronics-n-multimedia.car-audio-n-navigation.navigation-devices]}
 
- :maintenance-n-repair
+
+ :products.electronics-n-multimedia.car-audio-n-navigation.car-audio-accessories
  {:exclude []
   :include []
   :subs    []}
 
- :navigation-accessories
+ :products.electronics-n-multimedia.car-audio-n-navigation.car-audio-head-units
  {:exclude []
   :include []
   :subs    []}
 
- :navigation-devices
+ :products.electronics-n-multimedia.car-audio-n-navigation.navigation-accessories
  {:exclude []
   :include []
   :subs    []}
 
- :outdoor-showers
+ :products.electronics-n-multimedia.car-audio-n-navigation.navigation-devices
  {:exclude []
   :include []
   :subs    []}
 
- :parasols-n-windbreaks
+ :products.electronics-n-multimedia.household-appliances
  {:exclude []
   :include []
   :subs    []}
 
- :plumbing-fittings
- {:exclude []
-  :include []
-  :subs    []}
-
- :plumbing-fittings-quick-connect
- {:exclude []
-  :include []
-  :subs    []}
-
- :portable-containers
- {:exclude []
-  :include []
-  :subs    []}
-
- :portable-energy-storage
- {:exclude []
-  :include []
-  :subs    []}
-
- :portable-generators
- {:exclude []
-  :include []
-  :subs    []}
-
- :portable-toilets
- {:exclude []
-  :include []
-  :subs    []}
-
- :position-n-marker-lamps
- {:exclude []
-  :include []
-  :subs    []}
-
- :pots-n-pans
- {:exclude []
-  :include []
-  :subs    []}
-
- :protective-equipment
- {:exclude []
-  :include []
-  :subs    []}
-
- :pumps-n-compressors
- {:exclude []
-  :include []
-  :subs    []}
-
- :rear-lamps
- {:exclude []
-  :include []
-  :subs    []}
-
- :reflectors
- {:exclude []
-  :include []
-  :subs    []}
-
- :reversing-lamps
- {:exclude []
-  :include []
-  :subs    []}
-
- :safety-accessories
- {:exclude []
-  :include []
-  :subs    []}
-
- :safety-n-protection
+ :products.electronics-n-multimedia.satellite-systems
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:anti-burglary-equipment
-            :anti-theft-equipment
-            :cargo-securing
-            :alarms-n-sensors]}
+  :subs    [:products.electronics-n-multimedia.satellite-systems.satellite-accessories
+             :products.electronics-n-multimedia.satellite-systems.satellite-antennas
+             :products.electronics-n-multimedia.satellite-systems.satellite-receiver-kits]}
 
- :sanitary-supplies
+
+ :products.electronics-n-multimedia.satellite-systems.satellite-accessories
  {:exclude []
   :include []
   :subs    []}
 
- :sanitary-supplies-chemical-free
+ :products.electronics-n-multimedia.satellite-systems.satellite-antennas
  {:exclude []
   :include []
   :subs    []}
 
- :satellite-accessories
+ :products.electronics-n-multimedia.satellite-systems.satellite-receiver-kits
  {:exclude []
   :include []
   :subs    []}
 
- :satellite-antennas
- {:exclude []
-  :include []
-  :subs    []}
-
- :satellite-receiver-kits
- {:exclude []
-  :include []
-  :subs    []}
-
- :satellite-systems
+ :products.electronics-n-multimedia.tv-n-audio
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:satellite-antennas
-            :satellite-receiver-kits
-            :satellite-accessories]}
+  :subs    [:products.electronics-n-multimedia.tv-n-audio.tv-devices
+             :products.electronics-n-multimedia.tv-n-audio.tv-mounts
+             :products.electronics-n-multimedia.tv-n-audio.tv-speakers]}
 
- :sealants-n-adhesives
+
+ :products.electronics-n-multimedia.tv-n-audio.tv-devices
  {:exclude []
   :include []
   :subs    []}
 
- :securing-nets
+ :products.electronics-n-multimedia.tv-n-audio.tv-mounts
  {:exclude []
   :include []
   :subs    []}
 
- :shock-absorbers
+ :products.electronics-n-multimedia.tv-n-audio.tv-speakers
  {:exclude []
   :include []
   :subs    []}
 
- :shower-trays
- {:exclude []
-  :include []
-  :subs    []}
-
- :side-marker-lamps
- {:exclude []
-  :include []
-  :subs    []}
-
- :sinks
- {:exclude []
-  :include []
-  :subs    []}
-
- :solar-accessories
- {:exclude []
-  :include []
-  :subs    []}
-
- :solar-charge-controllers
- {:exclude []
-  :include []
-  :subs    []}
-
- :solar-kits
- {:exclude []
-  :include []
-  :subs    []}
-
- :solar-panels
- {:exclude []
-  :include []
-  :subs    []}
-
- :solar-showers
- {:exclude []
-  :include []
-  :subs    []}
-
- :solar-systems
+ :products.safety-n-protection
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:solar-kits
-            :solar-panels
-            :solar-accessories
-            :solar-charge-controllers]}
+  :subs    [:products.safety-n-protection.alarms-n-sensors
+             :products.safety-n-protection.anti-burglary-equipment
+             :products.safety-n-protection.anti-theft-equipment
+             :products.safety-n-protection.cargo-securing]}
 
- :sports-n-hiking
+
+ :products.safety-n-protection.alarms-n-sensors
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.safety-n-protection.anti-burglary-equipment
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.safety-n-protection.anti-theft-equipment
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.safety-n-protection.cargo-securing
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.sports-n-hiking
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:water-purification]}
+  :subs    [:products.sports-n-hiking.water-purification]}
 
- :straps-n-tensioners
+ :products.sports-n-hiking.water-purification
  {:exclude []
   :include []
   :subs    []}
 
- :support-legs
- {:exclude []
-  :include []
-  :subs    []}
-
- :switches-n-sockets
- {:exclude []
-  :include []
-  :subs    []}
-
- :tables
- {:exclude []
-  :include []
-  :subs    []}
-
- :tap-ceramic-inserts
- {:exclude []
-  :include []
-  :subs    []}
-
- :taps
- {:exclude []
-  :include []
-  :subs    []}
-
- :tent-lamps
- {:exclude []
-  :include []
-  :subs    []}
-
- :tents-n-awnings
+ :products.tents-n-awnings
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:maintenance-n-repair]}
+  :subs    [:products.tents-n-awnings.maintenance-n-repair]}
 
- :toilet-accessories
+ :products.tents-n-awnings.maintenance-n-repair
  {:exclude []
   :include []
   :subs    []}
 
- :toilet-ventilation
- {:exclude []
-  :include []
-  :subs    []}
-
- :toilets-n-accessories
+ :products.trailer-n-caravan
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:built-in-toilets
-            :portable-toilets
-            :sanitary-supplies
-            :sanitary-supplies-chemical-free
-            :toilet-ventilation
-            :toilet-accessories]}
+  :subs    [:products.trailer-n-caravan.cargo-securing
+             :products.trailer-n-caravan.chassis-n-body
+             :products.trailer-n-caravan.locks-n-protection
+             :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball
+             :products.trailer-n-caravan.wheels-n-tyres]}
 
- :tool-boxes
- {:exclude []
-  :include []
-  :subs    []}
 
- :torches
- {:exclude []
-  :include []
-  :subs    []}
-
- :tow-balls
- {:exclude []
-  :include []
-  :subs    []}
-
- :tow-bar-tow-hitch-n-tow-ball
+ :products.trailer-n-caravan.cargo-securing
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:tow-balls
-            :tow-hitches
-            :tow-hitch-components
-            :tow-hitch-scales
-            :tow-hitch-covers
-            :tow-hitch-accessories
-            :tow-hitch-locks]}
+  :subs    [:products.trailer-n-caravan.cargo-securing.cargo-securing-systems
+             :products.trailer-n-caravan.cargo-securing.securing-nets
+             :products.trailer-n-caravan.cargo-securing.straps-n-tensioners]}
 
- :tow-hitch-accessories
+
+ :products.trailer-n-caravan.cargo-securing.cargo-securing-systems
  {:exclude []
   :include []
   :subs    []}
 
- :tow-hitch-components
+ :products.trailer-n-caravan.cargo-securing.securing-nets
  {:exclude []
   :include []
   :subs    []}
 
- :tow-hitch-covers
+ :products.trailer-n-caravan.cargo-securing.straps-n-tensioners
  {:exclude []
   :include []
   :subs    []}
 
- :tow-hitch-locks
- {:exclude []
-  :include []
-  :subs    []}
-
- :tow-hitch-scales
- {:exclude []
-  :include []
-  :subs    []}
-
- :tow-hitches
- {:exclude []
-  :include []
-  :subs    []}
-
- :trailer-body-locks
- {:exclude []
-  :include []
-  :subs    []}
-
- :trailer-n-caravan
+ :products.trailer-n-caravan.chassis-n-body
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:chassis-n-body
-            :wheels-n-tyres
-            :cargo-securing
-            :tow-bar-tow-hitch-n-tow-ball
-            :locks-n-protection]}
+  :subs    [:products.trailer-n-caravan.chassis-n-body.chocks-n-chock-holders
+             :products.trailer-n-caravan.chassis-n-body.fenders
+             :products.trailer-n-caravan.chassis-n-body.jacks
+             :products.trailer-n-caravan.chassis-n-body.shock-absorbers
+             :products.trailer-n-caravan.chassis-n-body.support-legs
+             :products.trailer-n-caravan.chassis-n-body.tool-boxes
+             :products.trailer-n-caravan.chassis-n-body.winches]}
 
- :trailer-platform-locks
+
+ :products.trailer-n-caravan.chassis-n-body.chocks-n-chock-holders
  {:exclude []
   :include []
   :subs    []}
 
- :turn-signal-lamps
+ :products.trailer-n-caravan.chassis-n-body.fenders
  {:exclude []
   :include []
   :subs    []}
 
- :tv-devices
+ :products.trailer-n-caravan.chassis-n-body.jacks
  {:exclude []
   :include []
   :subs    []}
 
- :tv-mounts
+ :products.trailer-n-caravan.chassis-n-body.shock-absorbers
  {:exclude []
   :include []
   :subs    []}
 
- :tv-n-audio
+ :products.trailer-n-caravan.chassis-n-body.support-legs
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.trailer-n-caravan.chassis-n-body.tool-boxes
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.trailer-n-caravan.chassis-n-body.winches
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.trailer-n-caravan.locks-n-protection
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:tv-speakers
-            :tv-devices
-            :tv-mounts]}
+  :subs    [:products.trailer-n-caravan.locks-n-protection.caravan-body-locks
+             :products.trailer-n-caravan.locks-n-protection.safety-accessories
+             :products.trailer-n-caravan.locks-n-protection.trailer-body-locks
+             :products.trailer-n-caravan.locks-n-protection.trailer-platform-locks]}
 
- :tv-speakers
+
+ :products.trailer-n-caravan.locks-n-protection.caravan-body-locks
  {:exclude []
   :include []
   :subs    []}
 
- :tyres
+ :products.trailer-n-caravan.locks-n-protection.safety-accessories
  {:exclude []
   :include []
   :subs    []}
 
- :van-conversion
+ :products.trailer-n-caravan.locks-n-protection.trailer-body-locks
  {:exclude []
   :include []
   :subs    []}
 
- :vehicle-electrics
+ :products.trailer-n-caravan.locks-n-protection.trailer-platform-locks
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:connectors-n-adapters
-            :vehicle-lighting-n-lamps]}
+  :subs    [:products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-balls
+             :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitch-accessories
+             :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitch-components
+             :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitch-covers
+             :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitch-locks
+             :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitch-scales
+             :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitches]}
 
- :vehicle-lighting-n-lamps
+
+ :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-balls
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitch-accessories
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitch-components
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitch-covers
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitch-locks
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitch-scales
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitches
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.trailer-n-caravan.wheels-n-tyres
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:rear-lamps
-            :position-n-marker-lamps
-            :turn-signal-lamps
-            :additional-brake-lamps
-            :fog-lamps
-            :lamp-covers
-            :daytime-running-lamps
-            :side-marker-lamps
-            :license-plate-lamps
-            :reversing-lamps
-            :reflectors
-            :bulbs
-            :bulb-sets]}
+  :subs    [:products.trailer-n-caravan.wheels-n-tyres.complete-wheels
+             :products.trailer-n-caravan.wheels-n-tyres.tyres
+             :products.trailer-n-caravan.wheels-n-tyres.wheel-rims]}
 
- :washbasins
+
+ :products.trailer-n-caravan.wheels-n-tyres.complete-wheels
  {:exclude []
   :include []
   :subs    []}
 
- :washing-n-drying
+ :products.trailer-n-caravan.wheels-n-tyres.tyres
  {:exclude []
   :include []
   :subs    []}
 
- :water-can-accessories
+ :products.trailer-n-caravan.wheels-n-tyres.wheel-rims
  {:exclude []
   :include []
   :subs    []}
 
- :water-cans-n-buckets
- {:exclude []
-  :include []
-  :subs    []}
-
- :water-connection
- {:exclude []
-  :include []
-  :subs    []}
-
- :water-filtration
- {:exclude []
-  :include []
-  :subs    []}
-
- :water-heaters
- {:exclude []
-  :include []
-  :subs    []}
-
- :water-heating
+ :products.water-n-sanitary
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:solar-showers
-            :water-heaters]}
+  :subs    [:products.water-n-sanitary.toilets-n-accessories
+             :products.water-n-sanitary.water-heating
+             :products.water-n-sanitary.water-system
+             :products.water-n-sanitary.water-transport
+             :products.water-n-sanitary.water-treatment]}
 
- :water-hoses-n-pipes
- {:exclude []
-  :include []
-  :subs    []}
 
- :water-level-indicators
- {:exclude []
-  :include []
-  :subs    []}
-
- :water-n-sanitary
+ :products.water-n-sanitary.toilets-n-accessories
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:water-treatment
-            :water-heating
-            :water-system
-            :water-transport
-            :toilets-n-accessories]}
+  :subs    [:products.water-n-sanitary.toilets-n-accessories.built-in-toilets
+             :products.water-n-sanitary.toilets-n-accessories.portable-toilets
+             :products.water-n-sanitary.toilets-n-accessories.sanitary-supplies
+             :products.water-n-sanitary.toilets-n-accessories.sanitary-supplies-chemical-free
+             :products.water-n-sanitary.toilets-n-accessories.toilet-accessories
+             :products.water-n-sanitary.toilets-n-accessories.toilet-ventilation]}
 
- :water-pumps
+
+ :products.water-n-sanitary.toilets-n-accessories.built-in-toilets
  {:exclude []
   :include []
   :subs    []}
 
- :water-purification
+ :products.water-n-sanitary.toilets-n-accessories.portable-toilets
  {:exclude []
   :include []
   :subs    []}
 
- :water-system
+ :products.water-n-sanitary.toilets-n-accessories.sanitary-supplies
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.toilets-n-accessories.sanitary-supplies-chemical-free
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.toilets-n-accessories.toilet-accessories
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.toilets-n-accessories.toilet-ventilation
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-heating
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:taps
-            :tap-ceramic-inserts
-            :plumbing-fittings
-            :plumbing-fittings-quick-connect
-            :frost-protection
-            :bathroom-equipment
-            :garden-hoses-n-accessories
-            :outdoor-showers
-            :drainage-systems
-            :washbasins
-            :sinks
-            :grey-water-discharge
-            :grey-water-tanks
-            :water-connection
-            :water-level-indicators
-            :water-pumps
-            :water-tanks
-            :water-tank-accessories
-            :water-hoses-n-pipes
-            :shower-trays]}
+  :subs    [:products.water-n-sanitary.water-heating.solar-showers
+             :products.water-n-sanitary.water-heating.water-heaters]}
 
- :water-tank-accessories
+
+ :products.water-n-sanitary.water-heating.solar-showers
  {:exclude []
   :include []
   :subs    []}
 
- :water-tanks
+ :products.water-n-sanitary.water-heating.water-heaters
  {:exclude []
   :include []
   :subs    []}
 
- :water-transport
+ :products.water-n-sanitary.water-system
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:portable-containers
-            :water-cans-n-buckets
-            :water-can-accessories]}
+  :subs    [:products.water-n-sanitary.water-system.bathroom-equipment
+             :products.water-n-sanitary.water-system.drainage-systems
+             :products.water-n-sanitary.water-system.frost-protection
+             :products.water-n-sanitary.water-system.garden-hoses-n-accessories
+             :products.water-n-sanitary.water-system.grey-water-discharge
+             :products.water-n-sanitary.water-system.grey-water-tanks
+             :products.water-n-sanitary.water-system.outdoor-showers
+             :products.water-n-sanitary.water-system.plumbing-fittings
+             :products.water-n-sanitary.water-system.plumbing-fittings-quick-connect
+             :products.water-n-sanitary.water-system.shower-trays
+             :products.water-n-sanitary.water-system.sinks
+             :products.water-n-sanitary.water-system.tap-ceramic-inserts
+             :products.water-n-sanitary.water-system.taps
+             :products.water-n-sanitary.water-system.washbasins
+             :products.water-n-sanitary.water-system.water-connection
+             :products.water-n-sanitary.water-system.water-hoses-n-pipes
+             :products.water-n-sanitary.water-system.water-level-indicators
+             :products.water-n-sanitary.water-system.water-pumps
+             :products.water-n-sanitary.water-system.water-tank-accessories
+             :products.water-n-sanitary.water-system.water-tanks]}
 
- :water-treatment
+
+ :products.water-n-sanitary.water-system.bathroom-equipment
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.drainage-systems
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.frost-protection
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.garden-hoses-n-accessories
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.grey-water-discharge
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.grey-water-tanks
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.outdoor-showers
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.plumbing-fittings
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.plumbing-fittings-quick-connect
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.shower-trays
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.sinks
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.tap-ceramic-inserts
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.taps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.washbasins
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.water-connection
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.water-hoses-n-pipes
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.water-level-indicators
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.water-pumps
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.water-tank-accessories
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-system.water-tanks
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-transport
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:water-treatment-n-preservation
-            :water-filtration]}
+  :subs    [:products.water-n-sanitary.water-transport.portable-containers
+             :products.water-n-sanitary.water-transport.water-can-accessories
+             :products.water-n-sanitary.water-transport.water-cans-n-buckets]}
 
- :water-treatment-n-preservation
+
+ :products.water-n-sanitary.water-transport.portable-containers
  {:exclude []
   :include []
   :subs    []}
 
- :wheel-rims
+ :products.water-n-sanitary.water-transport.water-can-accessories
  {:exclude []
   :include []
   :subs    []}
 
- :wheels-n-tyres
+ :products.water-n-sanitary.water-transport.water-cans-n-buckets
+ {:exclude []
+  :include []
+  :subs    []}
+
+ :products.water-n-sanitary.water-treatment
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
-  :subs    [:wheel-rims
-            :complete-wheels
-            :tyres]}
+  :subs    [:products.water-n-sanitary.water-treatment.water-filtration
+             :products.water-n-sanitary.water-treatment.water-treatment-n-preservation]}
 
- :winches
+
+ :products.water-n-sanitary.water-treatment.water-filtration
  {:exclude []
   :include []
   :subs    []}
 
- :work-lamps
+ :products.water-n-sanitary.water-treatment.water-treatment-n-preservation
  {:exclude []
   :include []
   :subs    []}}
