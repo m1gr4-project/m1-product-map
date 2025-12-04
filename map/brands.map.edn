@@ -1,4 +1,14 @@
 
-[:brands
- [:fiamma]
- [:thule]]
+; {:random-uuid
+;  {:label   :my-category
+;   :exclude ["Does not contain red products"]
+;   :include ["Contains black products"
+;             "Contains green products"]
+;   :subs    [:my-subcategory ...]}
+;  ...}
+
+{:eee
+ {:label   :brands
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}}

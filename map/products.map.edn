@@ -1,30 +1,20 @@
 
-; Product category map:
-;
-; - Each category is represented by a vector.
-; - The first item is the dictionary ID of the category label.
-; - The second item is the instructions map of what the category contains and what it doesn't.
-; - The third item is the subcategories vector containing vectors of subcategories.
-
-
-
-; Example of a category vector:
-;
-; [:category-name
-;  {:exclude ["Does not contain red products"]
+; {:random-uuid
+;  {:label   :my-category
+;   :exclude ["Does not contain red products"]
 ;   :include ["Contains black products"
-;             "Contains green products"]}
-;  [[:subcategory-name
-;    {...}
-;    [...]]
-;   ...]]
+;             "Contains green products"]
+;   :subs    [:my-subcategory ...]}
+;  ...}
 
+{:aaa
+ {:label   :products
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    [:bbb]}
 
-
-[[:products
-  {:exclude ["Does not contain products directly"]
-   :include ["Contains only subcategories"]}
-  [[:safety-n-protection
-    {:exclude ["Does not contain products directly"]
-     :include ["Contains only subcategories"]}
-    []]]]]
+ :bbb
+ {:label :safety-n-protection
+  :exclude ["Does not contain products directly"]
+  :include ["Contains only subcategories"]
+  :subs    []}}
