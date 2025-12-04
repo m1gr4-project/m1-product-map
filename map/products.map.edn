@@ -1,9 +1,9 @@
 
 ; {:random-uuid
 ;  {:label   :my-category
-;   :exclude ["Does not contain red products"]
-;   :include ["Contains black products"
-;             "Contains green products"]
+;   :exclude ["Red products"]
+;   :include ["Black products"
+;             "Green products"]
 ;   :subs    [:my-subcategory ...]}
 ;  ...}
 
