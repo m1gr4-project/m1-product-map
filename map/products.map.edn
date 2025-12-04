@@ -21,13 +21,11 @@
              :products.trailer-n-caravan
              :products.water-n-sanitary]}
 
-
  :products.beach-n-play
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
   :subs    [:products.beach-n-play.beach-accessories
              :products.beach-n-play.inflatable-products]}
-
 
  :products.beach-n-play.beach-accessories
  {:exclude ["Does not contain products directly"]
@@ -38,7 +36,6 @@
              :products.beach-n-play.beach-accessories.beach-tents
              :products.beach-n-play.beach-accessories.beach-toys
              :products.beach-n-play.beach-accessories.parasols-n-windbreaks]}
-
 
  :products.beach-n-play.beach-accessories.beach-blankets
  {:exclude []
@@ -79,7 +76,6 @@
              :products.beach-n-play.inflatable-products.inflatable-toys
              :products.beach-n-play.inflatable-products.pumps-n-compressors]}
 
-
  :products.beach-n-play.inflatable-products.inflatable-boats
  {:exclude []
   :include []
@@ -113,7 +109,6 @@
              :products.camping-furniture.childrens-furniture
              :products.camping-furniture.tables]}
 
-
  :products.camping-furniture.cabinets
  {:exclude []
   :include []
@@ -142,7 +137,6 @@
              :products.camping-household.dehumidification
              :products.camping-household.pots-n-pans
              :products.camping-household.washing-n-drying]}
-
 
  :products.camping-household.cleaning-n-maintenance
  {:exclude []
@@ -175,7 +169,6 @@
   :subs    [:products.conversion-n-maintenance.sealants-n-adhesives
              :products.conversion-n-maintenance.van-conversion]}
 
-
  :products.conversion-n-maintenance.sealants-n-adhesives
  {:exclude []
   :include []
@@ -197,7 +190,6 @@
              :products.electricity-n-lighting.switches-n-sockets
              :products.electricity-n-lighting.vehicle-electrics]}
 
-
  :products.electricity-n-lighting.cables-n-wires
  {:exclude []
   :include []
@@ -212,7 +204,6 @@
              :products.electricity-n-lighting.high-voltage-electrical-system.inverters
              :products.electricity-n-lighting.high-voltage-electrical-system.portable-generators
              :products.electricity-n-lighting.high-voltage-electrical-system.protective-equipment]}
-
 
  :products.electricity-n-lighting.high-voltage-electrical-system.electrical-connection
  {:exclude []
@@ -254,7 +245,6 @@
              :products.electricity-n-lighting.lamps-n-lighting.tent-lamps
              :products.electricity-n-lighting.lamps-n-lighting.torches
              :products.electricity-n-lighting.lamps-n-lighting.work-lamps]}
-
 
  :products.electricity-n-lighting.lamps-n-lighting.camping-lamps
  {:exclude []
@@ -301,7 +291,6 @@
              :products.electricity-n-lighting.low-voltage-electrical-system.cigarette-lighter-sockets
              :products.electricity-n-lighting.low-voltage-electrical-system.portable-energy-storage]}
 
-
  :products.electricity-n-lighting.low-voltage-electrical-system.alkaline-n-rechargeable-cells
  {:exclude []
   :include []
@@ -340,7 +329,6 @@
              :products.electricity-n-lighting.solar-systems.solar-kits
              :products.electricity-n-lighting.solar-systems.solar-panels]}
 
-
  :products.electricity-n-lighting.solar-systems.solar-accessories
  {:exclude []
   :include []
@@ -372,7 +360,6 @@
   :subs    [:products.electricity-n-lighting.vehicle-electrics.connectors-n-adapters
              :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps]}
 
-
  :products.electricity-n-lighting.vehicle-electrics.connectors-n-adapters
  {:exclude []
   :include []
@@ -394,7 +381,6 @@
              :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.reversing-lamps
              :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.side-marker-lamps
              :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.turn-signal-lamps]}
-
 
  :products.electricity-n-lighting.vehicle-electrics.vehicle-lighting-n-lamps.additional-brake-lamps
  {:exclude []
@@ -469,7 +455,6 @@
              :products.electronics-n-multimedia.satellite-systems
              :products.electronics-n-multimedia.tv-n-audio]}
 
-
  :products.electronics-n-multimedia.car-audio-n-navigation
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
@@ -477,7 +462,6 @@
              :products.electronics-n-multimedia.car-audio-n-navigation.car-audio-head-units
              :products.electronics-n-multimedia.car-audio-n-navigation.navigation-accessories
              :products.electronics-n-multimedia.car-audio-n-navigation.navigation-devices]}
-
 
  :products.electronics-n-multimedia.car-audio-n-navigation.car-audio-accessories
  {:exclude []
@@ -511,7 +495,6 @@
              :products.electronics-n-multimedia.satellite-systems.satellite-antennas
              :products.electronics-n-multimedia.satellite-systems.satellite-receiver-kits]}
 
-
  :products.electronics-n-multimedia.satellite-systems.satellite-accessories
  {:exclude []
   :include []
@@ -533,7 +516,6 @@
   :subs    [:products.electronics-n-multimedia.tv-n-audio.tv-devices
              :products.electronics-n-multimedia.tv-n-audio.tv-mounts
              :products.electronics-n-multimedia.tv-n-audio.tv-speakers]}
-
 
  :products.electronics-n-multimedia.tv-n-audio.tv-devices
  {:exclude []
@@ -557,7 +539,6 @@
              :products.safety-n-protection.anti-burglary-equipment
              :products.safety-n-protection.anti-theft-equipment
              :products.safety-n-protection.cargo-securing]}
-
 
  :products.safety-n-protection.alarms-n-sensors
  {:exclude []
@@ -608,14 +589,12 @@
              :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball
              :products.trailer-n-caravan.wheels-n-tyres]}
 
-
  :products.trailer-n-caravan.cargo-securing
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
   :subs    [:products.trailer-n-caravan.cargo-securing.cargo-securing-systems
              :products.trailer-n-caravan.cargo-securing.securing-nets
              :products.trailer-n-caravan.cargo-securing.straps-n-tensioners]}
-
 
  :products.trailer-n-caravan.cargo-securing.cargo-securing-systems
  {:exclude []
@@ -642,7 +621,6 @@
              :products.trailer-n-caravan.chassis-n-body.support-legs
              :products.trailer-n-caravan.chassis-n-body.tool-boxes
              :products.trailer-n-caravan.chassis-n-body.winches]}
-
 
  :products.trailer-n-caravan.chassis-n-body.chocks-n-chock-holders
  {:exclude []
@@ -687,7 +665,6 @@
              :products.trailer-n-caravan.locks-n-protection.trailer-body-locks
              :products.trailer-n-caravan.locks-n-protection.trailer-platform-locks]}
 
-
  :products.trailer-n-caravan.locks-n-protection.caravan-body-locks
  {:exclude []
   :include []
@@ -718,7 +695,6 @@
              :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitch-locks
              :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitch-scales
              :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-hitches]}
-
 
  :products.trailer-n-caravan.tow-bar-tow-hitch-n-tow-ball.tow-balls
  {:exclude []
@@ -762,7 +738,6 @@
              :products.trailer-n-caravan.wheels-n-tyres.tyres
              :products.trailer-n-caravan.wheels-n-tyres.wheel-rims]}
 
-
  :products.trailer-n-caravan.wheels-n-tyres.complete-wheels
  {:exclude []
   :include []
@@ -787,7 +762,6 @@
              :products.water-n-sanitary.water-transport
              :products.water-n-sanitary.water-treatment]}
 
-
  :products.water-n-sanitary.toilets-n-accessories
  {:exclude ["Does not contain products directly"]
   :include ["Contains only subcategories"]
@@ -797,7 +771,6 @@
              :products.water-n-sanitary.toilets-n-accessories.sanitary-supplies-chemical-free
              :products.water-n-sanitary.toilets-n-accessories.toilet-accessories
              :products.water-n-sanitary.toilets-n-accessories.toilet-ventilation]}
-
 
  :products.water-n-sanitary.toilets-n-accessories.built-in-toilets
  {:exclude []
@@ -835,7 +808,6 @@
   :subs    [:products.water-n-sanitary.water-heating.solar-showers
              :products.water-n-sanitary.water-heating.water-heaters]}
 
-
  :products.water-n-sanitary.water-heating.solar-showers
  {:exclude []
   :include []
@@ -869,7 +841,6 @@
              :products.water-n-sanitary.water-system.water-pumps
              :products.water-n-sanitary.water-system.water-tank-accessories
              :products.water-n-sanitary.water-system.water-tanks]}
-
 
  :products.water-n-sanitary.water-system.bathroom-equipment
  {:exclude []
@@ -978,7 +949,6 @@
              :products.water-n-sanitary.water-transport.water-can-accessories
              :products.water-n-sanitary.water-transport.water-cans-n-buckets]}
 
-
  :products.water-n-sanitary.water-transport.portable-containers
  {:exclude []
   :include []
@@ -999,7 +969,6 @@
   :include ["Contains only subcategories"]
   :subs    [:products.water-n-sanitary.water-treatment.water-filtration
              :products.water-n-sanitary.water-treatment.water-treatment-n-preservation]}
-
 
  :products.water-n-sanitary.water-treatment.water-filtration
  {:exclude []
